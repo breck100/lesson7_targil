@@ -8,5 +8,10 @@ pipeline {
                 bat 'python.exe main.py'
             }
         }
+        stage('Hello2') {
+            steps {
+               bat dir
+            }
+        }
     }
 }
