@@ -11,7 +11,7 @@ pipeline {
         }
         stage('Hello2') {
             steps {
-               bat dir
+               bat 'dir'
             }
         }
     }
