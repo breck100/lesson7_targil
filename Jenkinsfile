@@ -12,6 +12,7 @@ pipeline {
         stage('Hello2') {
             steps {
                bat 'dir'
+                echo "just testing"
             }
         }
     }
